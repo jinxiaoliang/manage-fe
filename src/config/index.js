@@ -1,7 +1,7 @@
 /**
  * 环境配置封装
  */
-const env = import.meta.env.MODE || 'prod'
+const env = import.meta.env.MODE || 'production'
 const EnvConfig = {
     development: {
         baseApi: '',
@@ -11,7 +11,7 @@ const EnvConfig = {
         baseApi: '',
         mockApi: 'https://www.fastmock.site/mock/3b4813b1511ac902f4e28124a51cb6ce/api'
     },
-    prod: {
+    production: {
         baseApi: '',
         mockApi: 'https://www.fastmock.site/mock/3b4813b1511ac902f4e28124a51cb6ce/api'
     }
